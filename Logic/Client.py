@@ -9,7 +9,9 @@ class Client:
             else:
                 return ingredient
 
-    def userMenuDisplay(self):
+    @classmethod
+    def userMenuDisplay(cls):
+        print("Co dzisiaj będziemy robić?")
         print("1) Wyszukiwanie na podstawie składnika")
         print("2) Wyświetl wszystkie przepisy")
         print("3) Wyświetl wszystkie składniki")

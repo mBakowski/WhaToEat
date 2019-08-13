@@ -1,6 +1,5 @@
-from DataBase.DataStorage import DataStorage
-from Logic.Client import Client
 
-test2 = Client()
-test = DataStorage()
+from Logic.Engine import Engine
 
+test3 = Engine()
+test3.logic()
